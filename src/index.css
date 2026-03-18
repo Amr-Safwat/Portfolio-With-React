@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+:root {
+  --main-color: #fec544;
+  --text-color: #a9adb8;
+  --bg-color: #0a101e;
+  --container-width: 1200px;
+}
+
+:root {
+  background-color: #242424;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: var(--container-width);
+  margin: auto;
+  padding: 0 20px;
+}
+
+.flex {
+  display: flex;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-p{
+  padding: 10px 70px;
+}
+
+@media (max-width: 700px) {
+    .section-p{
+  padding: 10px 10px;
+}
+}

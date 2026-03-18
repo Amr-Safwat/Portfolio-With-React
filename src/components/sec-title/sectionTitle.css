@@ -1,0 +1,41 @@
+.sec-title .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 0;
+}
+.title {
+  color: var(--main-color);
+  font-size: 27px;
+  position: relative;
+  z-index: 2;
+}
+.title::before {
+  content: '';
+  position: absolute;
+  background-color: #3f4551;
+  width: 170px;
+  height: 2px;
+  bottom: -16px;
+  left: 50%;
+  transform: translate(-50%);
+}
+.title::after {
+  content: '';
+  position: absolute;
+  background-color: #fec544;
+  width: 70px;
+  height: 2px;
+  bottom: -16px;
+  left: 50%;
+  transform: translate(-50%);
+}
+.layer {
+  color: #151b2980;
+  font-size: 90px;
+  font-weight: bold;
+  position: absolute;
+  top: 102%;
+  z-index: 1;
+}
