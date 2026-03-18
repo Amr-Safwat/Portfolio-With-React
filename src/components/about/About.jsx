@@ -1,13 +1,25 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import './about.css';
 import SectionTitle from '../sec-title/SectionTitle';
 import Image from '../../assets/image.png';
 import Button from '../button/Button';
 import cvUrl from '../../assets/Amr_Safwat_CV_With_Project_Links.pdf';
+import {useEffect, useState} from 'react';
+import {useInView} from 'motion/react';
+
 
 function About() {
+  // const triggerRef = React.useRef(null);
+  // const [isVisible, setIsVisible] = useState()
+   const tref = useRef(null);
+   const isInView = useInView(tref);
+
+  useEffect(() => {
+    console.log('Element is in view: ', isInView);
+  }, [isInView]);
+  
   return (
-    <div className="about-sec section-p" id='about'>
+    <div className="about-sec section-p" id="about">
       <SectionTitle sectionName="ABOUT ME" />
       <div className="container">
         <div className="left-section wow slideInRight" data-wow-delay=".1s">
@@ -46,7 +58,11 @@ function About() {
               <span>Freelance</span> : <span>Available</span>
             </li>
           </ul>
-          <div className="wow slideInRight" data-wow-delay="1.2s">
+          <div
+            className="wow slideInRight"
+            data-wow-delay="1.2s"
+            ref={tref}
+          >
             <Button text="Download CV" cv={true} url={cvUrl} />
           </div>
         </div>

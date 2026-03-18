@@ -3,26 +3,22 @@ import './navBar.css'
 import {BsTelephoneFill} from 'react-icons/bs';
 import {LuSquareMenu} from 'react-icons/lu';
 
-
 function NavBar() {
-  let menu = useRef()
-    let navLinks = [
-      {name: 'Home', link: '#home'},
-      {name: 'About', link: '#about'},
-      {name: 'Resume', link: '#resume'},
-      {name: 'Portfolio', link: '#portfolio'},
-      {name: 'Blog', link: '#blog'},
-      {name: 'Contact', link: '#contact'},
-    ];
+  let menu = useRef();
+  let navLinks = [
+    {name: 'Home', link: '#home'},
+    {name: 'About', link: '#about'},
+    {name: 'Resume', link: '#resume'},
+    {name: 'Portfolio', link: '#portfolio'},
+    {name: 'Blog', link: '#blog'},
+    {name: 'Contact', link: '#contact'},
+  ];
 
-    let lightColors = {}
-    let darkColors = {}
-
-    function openMenu(){
+  function openMenu() {
     menu.current.className !== 'open'
       ? (menu.current.className = 'open')
       : (menu.current.className = '');
-    }
+  }
   return (
     <header>
       <div className="container">
