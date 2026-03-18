@@ -1,5 +1,6 @@
 import React from 'react'
 import './hero.css'
+import Button from '../button/Button';
 function Hero() {
   return (
     <div className="hero section-p">
@@ -13,9 +14,9 @@ function Hero() {
           <div className="jop-title wow bounceInUp" data-wow-delay=".4s">
             Front End Developer
           </div>
-          <button className="hire-me wow bounceInUp" data-wow-delay=".6s">
-            Hire Me
-          </button>
+          <div className="hire-me wow bounceInUp" data-wow-delay=".6s">
+            <Button text={'Hire Me'}/>
+          </div>
         </div>
         <div className="sec-right">
           <img src="" alt="" />

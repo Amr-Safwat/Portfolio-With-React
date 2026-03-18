@@ -1,13 +1,9 @@
-@import "tailwindcss";
 
 :root {
   --main-color: #fec544;
   --text-color: #a9adb8;
   --bg-color: #0a101e;
   --container-width: 1200px;
-}
-
-:root {
   background-color: #242424;
 }
 
@@ -16,10 +12,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
+  scroll-behavior: smooth;
 }
 
 .container {

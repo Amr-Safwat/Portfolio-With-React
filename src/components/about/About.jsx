@@ -7,7 +7,7 @@ import cvUrl from '../../assets/Amr_Safwat_CV_With_Project_Links.pdf';
 
 function About() {
   return (
-    <div className="about-sec section-p">
+    <div className="about-sec section-p" id='about'>
       <SectionTitle sectionName="ABOUT ME" />
       <div className="container">
         <div className="left-section wow slideInRight" data-wow-delay=".1s">
