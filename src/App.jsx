@@ -4,6 +4,7 @@ import About from './components/about/About';
 import Hero from './components/hero/hero';
 import NavBar from '/src/components/navBar/navBar';
 import Service from './components/servece/service';
+import WOW from 'wow.js';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -54,6 +55,14 @@ function App() {
     window.addEventListener('scroll', handleScroll, {passive: true});
 
     return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const wow = new WOW();
+      wow.init();
+      wow.sync(); // مهم
+    }
   }, []);
 
   return (
