@@ -21,10 +21,9 @@ function About() {
             Front End Developer
           </h3>
           <p className="wow slideInRight" data-wow-delay=".5s">
-            I am a Visual Designer with a strong focus on digital branding.
-            Visul design seeks to attract, inspire, create desires and otivate
-            people to respond to messages, with a view to making a favorable
-            impact.
+            I build responsive and dynamic web applications using React. I focus
+            on clean UI, performance, and user experience. I also help with API
+            integration, optimization, and fixing existing projects.
           </p>
           <ul className="Birthday-info">
             <li className="wow slideInRight" data-wow-delay=".6s">
