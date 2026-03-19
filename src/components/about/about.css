@@ -12,6 +12,7 @@
     width: 500px;
     border-radius: 20px;
 }
+
 .about-sec .container .right-section { color: aliceblue;}
 .about-sec .container .right-section .name {
     font-size: 42px;
@@ -43,8 +44,12 @@
     .about-sec .container {
         flex-direction: column;
     }
+    .about-sec .container .left-section { 
+        margin-right: 0;
+    }
     .about-sec .container .left-section img {
-        width: 500px;
+        width: 100%;
+        
     }
     .about-sec .container .left-section {
         margin-bottom: 20px;
