@@ -32,3 +32,16 @@
     margin: 15px 0;
 }
 .sec-right img {}
+
+@media (max-width: 991px) {
+    .sec-left .hello {
+        font-size: 22px;
+    }
+    .sec-left .name {
+        font-size: 70px;
+    }
+
+    .sec-left .jop-title {
+        font-size: 22px;
+    }
+}

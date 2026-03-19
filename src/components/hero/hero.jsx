@@ -6,15 +6,15 @@ function Hero() {
     <div id="home" className="hero section-p">
       <div className="container">
         <div className="sec-left">
-          <span className="hello wow bounceInUp">Hello, I'm</span>
-          <div className="name wow bounceInUp" data-wow-delay=".2s">
+          <span className="hello wow fadeInUp">Hello, I'm</span>
+          <div className="name wow fadeInUp" data-wow-delay=".2s">
             Amr Safwat
           </div>
 
-          <div className="jop-title wow bounceInUp" data-wow-delay=".4s">
+          <div className="jop-title wow fadeInUp" data-wow-delay=".4s">
             Front End Developer
           </div>
-          <div className="hire-me wow bounceInUp" data-wow-delay=".6s">
+          <div className="hire-me wow fadeInUp" data-wow-delay=".6s">
             <Button text={'Hire Me'} />
           </div>
         </div>
