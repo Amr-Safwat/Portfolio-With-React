@@ -4,10 +4,10 @@ import SectionTitle from '../sec-title/SectionTitle'
 
 function Skills() {
   return (
-    <div className="skills">
+    <div className="skills section-p">
       <SectionTitle sectionName={'SKILLS'} />
       <div className="container">
-        <div className="left-section">
+        <div className="left-section wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
           <h2>
             All the skills that I have in that field of work are mentioned.
           </h2>
@@ -22,14 +22,31 @@ function Skills() {
         </div>
         <div className="right-section">
           <ul>
-            <li>
+            <li className="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
               <span>JavaScript</span>
               <span>95%</span>
               <span className='progress'></span>
             </li>
-            <li>React</li>
-            <li>CSS</li>
-            <li>HTML</li>
+            <li className="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
+              <span>React</span>
+              <span>85%</span>
+              <span className='progress'></span>
+            </li>
+            <li className="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.9s">
+              <span>CSS</span>
+              <span>90%</span>
+              <span className='progress'></span>
+            </li>
+            <li className="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.1s">
+              <span>HTML</span>
+              <span>95%</span>
+              <span className='progress'></span>
+            </li>
+            <li className="wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.3s">
+              <span>Front End Development</span>
+              <span>95%</span>
+              <span className='progress'></span>
+            </li>
           </ul>
         </div>
       </div>

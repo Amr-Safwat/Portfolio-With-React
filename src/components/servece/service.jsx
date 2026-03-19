@@ -11,7 +11,7 @@ import {BsTools} from 'react-icons/bs';
 
 function Service() {
   return (
-    <div className="service">
+    <div className="service section-p">
         <SectionTitle sectionName="SERVICE" />
       <div className="container">
         <div className="cards">

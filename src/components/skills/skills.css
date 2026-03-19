@@ -24,16 +24,29 @@
 .skills .container .right-section ul {
 }
 .skills .container .right-section ul li {
-    position: relative;
+  position: relative;
+  margin-bottom: 1.5rem;
 }
-.skills .container .right-section ul li span:first-child {}
+.skills .container .right-section ul li span:first-child {
+  font-weight: bold;
+}
 .skills .container .right-section ul li span:nth-child(2) {
-    position: absolute;
-    right: 0;
+  position: absolute;
+  right: 0;
+  color: var(--main-color);
 }
 .skills .container .right-section ul li .progress {
   background-color: var(--main-color);
   display: block;
-  height: 1px;
+  height: 2px;
   width: 100%;
+}
+@media (max-width: 800px) {
+  .skills .container {
+    flex-direction: column;
+  }
+  .skills .container .left-section {
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
 }
