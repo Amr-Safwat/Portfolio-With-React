@@ -1,0 +1,39 @@
+.skills {
+  background: var(--bg-color);
+  padding: 2rem 0;
+}
+.skills .container {
+  display: flex;
+}
+.skills .container .left-section {
+  flex-basis: 50%;
+  margin-right: 20px;
+}
+.skills .container .left-section h2 {
+  color: #fff;
+  font-size: 1.9rem;
+  margin-bottom: 1rem;
+}
+.skills .container .left-section p {
+  color: var(--text-color);
+}
+.skills .container .right-section {
+  color: #fff;
+  flex-basis: 50%;
+}
+.skills .container .right-section ul {
+}
+.skills .container .right-section ul li {
+    position: relative;
+}
+.skills .container .right-section ul li span:first-child {}
+.skills .container .right-section ul li span:nth-child(2) {
+    position: absolute;
+    right: 0;
+}
+.skills .container .right-section ul li .progress {
+  background-color: var(--main-color);
+  display: block;
+  height: 1px;
+  width: 100%;
+}

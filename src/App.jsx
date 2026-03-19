@@ -5,6 +5,7 @@ import Hero from './components/hero/hero';
 import NavBar from '/src/components/navBar/navBar';
 import Service from './components/servece/service';
 import WOW from 'wow.js';
+import Skills from './components/skills/Skills';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -71,6 +72,7 @@ function App() {
       <Hero />
       <About />
       <Service />
+      <Skills />
     </>
   );
 }
