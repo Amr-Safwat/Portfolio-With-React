@@ -1,0 +1,40 @@
+.service {
+  background-color: var(--bg-color);
+  padding: 100px 0;
+}
+.service .container {
+}
+.service .container .cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.service .container .cards .card .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+  width: 90px;
+  background-color: rgb(7, 13, 27);
+  font-size: 50px;
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: rgb(63, 69, 81);
+  border-image: initial;
+  border-radius: 50%;
+  margin: auto auto 28px;
+  color: rgb(63, 69, 81);
+  transition: 0.4s;
+}
+.service .container .cards .card h2 {
+  color: #fff;
+}
+.service .container .cards .card p {
+  color: var(--text-color);
+}
+
+.service .container .cards .card:hover .icon,
+.service .container .cards .card:hover h2 {
+  color: var(--main-color);
+}

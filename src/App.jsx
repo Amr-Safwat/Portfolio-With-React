@@ -3,6 +3,7 @@ import './App.css';
 import About from './components/about/About';
 import Hero from './components/hero/hero';
 import NavBar from '/src/components/navBar/navBar';
+import Service from './components/servece/service';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -60,6 +61,7 @@ function App() {
       <NavBar activeSection={activeSection} />
       <Hero />
       <About />
+      <Service />
     </>
   );
 }
