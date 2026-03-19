@@ -12,8 +12,8 @@ import {BsTools} from 'react-icons/bs';
 function Service() {
   return (
     <div className="service">
-      <div className="container">
         <SectionTitle sectionName="SERVICE" />
+      <div className="container">
         <div className="cards">
           <Card
             icon={<MdOutlineDeveloperMode />}
