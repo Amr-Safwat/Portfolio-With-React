@@ -1,9 +1,9 @@
-import React from 'react'
-import './hero.css'
+import React from 'react';
+import './hero.css';
 import Button from '../button/Button';
 function Hero() {
   return (
-    <div className="hero section-p">
+    <div id="home" className="hero section-p">
       <div className="container">
         <div className="sec-left">
           <span className="hello wow bounceInUp">Hello, I'm</span>
@@ -15,7 +15,7 @@ function Hero() {
             Front End Developer
           </div>
           <div className="hire-me wow bounceInUp" data-wow-delay=".6s">
-            <Button text={'Hire Me'}/>
+            <Button text={'Hire Me'} />
           </div>
         </div>
         <div className="sec-right">
@@ -26,4 +26,4 @@ function Hero() {
   );
 }
 
-export default Hero
+export default Hero;

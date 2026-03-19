@@ -10,7 +10,7 @@
     margin-right: 40px;
 }
 .about-sec .container .left-section img {
-    width: 900px;
+    width: 500px;
     border-radius: 20px;
 }
 .about-sec .container .right-section { color: aliceblue;}
@@ -42,10 +42,14 @@
 
 @media (max-width: 1000px) {
     .about-sec .container {
-        display: block;
+        flex-direction: column;
+    }
+    .about-sec .container .left-section img {
+        width: 500px;
     }
     .about-sec .container .left-section {
         margin-bottom: 20px;
     }
+
 }
 

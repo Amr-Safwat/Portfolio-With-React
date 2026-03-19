@@ -39,3 +39,8 @@
   top: 102%;
   z-index: 1;
 }
+@media (max-width: 1000px) {
+  .layer {
+    display: none;
+  }
+}

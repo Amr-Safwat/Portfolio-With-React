@@ -1,9 +1,10 @@
-@import 'tailwindcss';
 header {
   background-color: var(--bg-color);
   color: #fdfeff;
   height: 80px;
   position: sticky;
+  top: 0;
+  z-index: 999;
 }
 
 header .container {
@@ -22,6 +23,8 @@ header .container .logo {
 }
 
 header .container .nav a {
+  text-decoration: none;
+  color: #fff;
   padding: 22px;
   font-size: 18px;
 }
@@ -29,8 +32,9 @@ header .container .nav a {
 header .container .nav a:hover {
   color: #a9adb8;
 }
-header .container .nav a:active {
-  color: var(--main-color);
+
+header .container .nav a.active {
+  color: var(--main-color)
 }
 
 header .container .nav .number {
@@ -44,14 +48,14 @@ header .container .nav .number span {
 }
 
 header .container .nav .menu {
-        padding: 10px 5px;
-        display: none;
+  padding: 10px 5px;
+  display: none;
 }
 
 @media (max-width: 1000px) {
-    header .container .logo {
-        font-size: 30px;
-    }
+  header .container .logo {
+    font-size: 30px;
+  }
   header .container nav {
     display: flex;
     flex-direction: column;
@@ -63,13 +67,13 @@ header .container .nav .menu {
     overflow: hidden;
     background: var(--bg-color);
     border-top: 1px solid #333437;
-    transition: .5s;
+    transition: 0.5s;
   }
-  
-  header .container .open{
-      height: 437px;
+
+  header .container .open {
+    height: 437px;
   }
-  
+
   header .container .nav a {
     color: #a9adb8;
   }

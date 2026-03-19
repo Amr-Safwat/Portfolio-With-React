@@ -15,5 +15,8 @@
     text-transform: capitalize;
     cursor: pointer;
     background-color: #fec544;
+}
+.btn a {
+    text-decoration: none;
     color: #070d1b;
 }
