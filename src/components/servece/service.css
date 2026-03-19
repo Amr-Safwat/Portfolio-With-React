@@ -37,4 +37,6 @@
 .service .container .cards .card:hover .icon,
 .service .container .cards .card:hover h2 {
   color: var(--main-color);
+  border-color: var(--main-color);
+  transition: 0.3s;
 }
