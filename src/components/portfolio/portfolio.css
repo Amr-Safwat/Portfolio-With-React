@@ -1,0 +1,25 @@
+.portfolio {
+  background-color: var(--bg-color);
+}
+.portfolio .container {
+}
+.portfolio .container .cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+.portfolio .container .cards .card {
+  text-align: center;
+  /* background-color: rgb(16, 22, 36); */
+  /* padding: 50px 30px; */
+  border-radius: 3px;
+  transition: 0.4s;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(35, 41, 53);
+  border-image: initial;
+}
+.portfolio .container .cards .card img {
+  width: 100%;
+  height: auto;
+}
