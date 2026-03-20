@@ -3,7 +3,7 @@ import './sectionTitle.css'
 
 function SectionTitle({sectionName}) {
   return (
-    <div className="sec-title">
+    <div className="sec-title wow fadeInUp">
       <div className="container">
         <div className="title">{sectionName}</div>
         <div className="layer">{sectionName}</div>
