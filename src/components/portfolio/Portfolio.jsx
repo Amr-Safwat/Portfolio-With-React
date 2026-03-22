@@ -10,22 +10,22 @@ function Portfolio() {
       <SectionTitle sectionName={'PORTFOLIO'} />
       <div className="container">
         <div className="cards">
-          <div className="card">
+          <div className="card wow fadeInUp" data-wow-delay="0.2s">
             <img src={imageOne} alt="" />
           </div>
-          <div className="card">
+          <div className="card wow fadeInUp" data-wow-delay="0.4s">
             <img src={imageTwo} alt="" />
           </div>
-          <div className="card">
+          <div className="card wow fadeInUp" data-wow-delay="0.6s">
             <img src={imageOne} alt="" />
           </div>
-          <div className="card">
+          <div className="card wow fadeInUp" data-wow-delay="0.8s">
             <img src={imageTwo} alt="" />
           </div>
-          <div className="card">
+          <div className="card wow fadeInUp" data-wow-delay="1.0s">
             <img src={imageOne} alt="" />
           </div>
-          <div className="card">
+          <div className="card wow fadeInUp" data-wow-delay="1.2s">
             <img src={imageTwo} alt="" />
           </div>
         </div>
