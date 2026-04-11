@@ -46,8 +46,8 @@ ul {
   padding: 10px 30px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 500px) {
     .section-p{
-  padding: 10px 80px;
+  padding: 10px 0px;
 }
 }
