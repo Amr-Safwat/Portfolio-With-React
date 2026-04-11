@@ -4,6 +4,8 @@
 }
 .hero .container {
     height: 100%;
+    display: flex;
+    align-items: center;
 }
 .sec-left {
     display: flex;
@@ -31,7 +33,36 @@
 .sec-left .hire-me {
     margin: 15px 0;
 }
-.sec-right img {}
+.sec-right {
+    text-align: end;
+}
+.sec-right img {
+    width: 60%;
+    border-radius: 10%;
+}
+
+.sec-right .social-icons {
+    display: flex;
+
+}
+.sec-right a{ 
+display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  height: 45px;
+  width: 45px;
+  background-color: rgb(7, 13, 27);
+  font-size: 20px;
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: rgb(63, 69, 81);
+  border-image: initial;
+  border-radius: 50%;
+  margin-right: 20px;
+  color: rgb(63, 69, 81);
+  transition: 0.4s;
+}
 
 @media (max-width: 991px) {
     .sec-left .hello {
@@ -43,5 +74,8 @@
 
     .sec-left .jop-title {
         font-size: 22px;
+    }
+    .sec-right{
+        display: none;
     }
 }
