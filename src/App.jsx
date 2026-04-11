@@ -8,6 +8,7 @@ import WOW from 'wow.js';
 import Skills from './components/skills/Skills';
 import Portfolio from './components/portfolio/Portfolio';
 import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -77,6 +78,7 @@ function App() {
       <Skills />
       <Portfolio />
       <Contact />
+      <Footer />
     </>
   );
 }

@@ -1,6 +1,7 @@
 .contact {
         background-color: #0a101e;
         color: #fff;
+        padding-bottom: 80px !important;
 }
 .contact .container{
     display: flex;
