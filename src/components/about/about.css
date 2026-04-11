@@ -9,8 +9,8 @@
     margin-right: 40px;
 }
 .about-sec .container .left-section img {
-    width: 500px;
     border-radius: 20px;
+    width: 100%;
 }
 
 .about-sec .container .right-section { color: aliceblue;}

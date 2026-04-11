@@ -3,16 +3,17 @@ import './App.css';
 import About from './components/about/About';
 import Hero from './components/hero/hero';
 import NavBar from '/src/components/navBar/navBar';
-import Service from './components/servece/service';
+import Service from './components/service/service';
 import WOW from 'wow.js';
 import Skills from './components/skills/Skills';
 import Portfolio from './components/portfolio/Portfolio';
+import Contact from './components/contact/Contact';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
 
   useEffect(() => {
-    const sectionIds = ['home', 'about'];
+    const sectionIds = ['home', 'about', 'portfolio'];
 
     const getActiveSectionFromScroll = () => {
       const viewportMid = window.scrollY + window.innerHeight / 2;
@@ -75,6 +76,7 @@ function App() {
       <Service />
       <Skills />
       <Portfolio />
+      <Contact />
     </>
   );
 }

@@ -43,11 +43,11 @@ ul {
 }
 
 .section-p{
-  padding: 10px 70px;
+  padding: 10px 30px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     .section-p{
-  padding: 10px 10px;
+  padding: 10px 80px;
 }
 }
