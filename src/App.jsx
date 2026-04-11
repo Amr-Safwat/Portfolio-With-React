@@ -14,7 +14,7 @@ function App() {
   const [activeSection, setActiveSection] = useState('home');
 
   useEffect(() => {
-    const sectionIds = ['home', 'about', 'portfolio'];
+    const sectionIds = ['home', 'about', 'portfolio', 'contact'];
 
     const getActiveSectionFromScroll = () => {
       const viewportMid = window.scrollY + window.innerHeight / 2;
