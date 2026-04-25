@@ -25,31 +25,31 @@ function Service() {
             icon={<FaReact />}
             title="React Web Applications"
             description="I develop dynamic and scalable web applications using React, including dashboards, landing pages, and interactive UIs."
-            delay="0.2s"
+            delay="0.1s"
           />
           <Card
             icon={<FaEdit />}
             title="UI Implementation"
             description="I convert designs from Figma or Adobe XD into pixel-perfect, fully functional websites."
-            delay="0.3s"    
+            delay="0.1s"    
           />
           <Card
             icon={<TbSettingsCog />}
             title="Website Optimization"
             description="I improve website speed, responsiveness, and performance for better user experience and SEO."
-            delay="0.4s"
+            delay="0.1s"
           />
           <Card
             icon={<TbApi />}
             title="API Integration"
             description="I connect front-end applications with APIs to display real-time data and build dynamic features."
-            delay="0.5s"
+            delay="0.1s"
           />
           <Card
             icon={<BsTools />}
             title="Bug Fixing & Maintenance"
             description="I fix issues, refactor code, and maintain existing projects to keep them running smoothly."
-            delay="0.6s"
+            delay="0.1s"
           />
         </div>
       </div>
