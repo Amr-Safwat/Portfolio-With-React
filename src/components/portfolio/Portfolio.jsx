@@ -12,18 +12,15 @@ function Portfolio() {
       <SectionTitle sectionName={'PORTFOLIO'} />
       <div className="container">
         <div className="cards">
-          <div className="card wow fadeInUp" data-wow-delay="0.2s">
-            <img src={imageOne} alt="" />
-          </div>
-          <div className="card wow fadeInUp" data-wow-delay="0.2s">
-            <img src={imageOne} alt="" />
-          </div>
-          <div className="card wow fadeInUp" data-wow-delay="0.2s">
-            <img src={imageOne} alt="" />
-          </div>
-          <div className="card wow fadeInUp" data-wow-delay="0.2s">
-            <img src={imageOne} alt="" />
-          </div>
+          {
+            images.map((img, index) => {
+              return (
+                <div className="card wow fadeInUp" data-wow-delay={`0.${index + 2}s`}>
+                  <img src={img} alt="" />
+                </div>
+              );
+            })
+          }
         </div>
         <div className="button">
           <Button text={'Load More'} />
