@@ -7,8 +7,9 @@ import imageSix from '/src/assets/work6.png';
 import imageSeven from '/src/assets/work7.png';
 import imageEight from '/src/assets/work8.png';
 import imageNine from '/src/assets/work9.png';
+import imageTen from '/src/assets/work10.png'
 
 
 export const images = [
-    imageOne, imageTwo, imageThree, imageFour, imageFive, imageSix, imageSeven, imageEight, imageNine
+    imageOne, imageTwo, imageThree, imageFour, imageFive, imageSix, imageSeven, imageEight, imageNine, imageTen
 ]
