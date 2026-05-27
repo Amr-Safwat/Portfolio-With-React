@@ -18,10 +18,64 @@
   border-style: solid;
   border-color: rgb(35, 41, 53);
   border-image: initial;
+  position: relative;
+  overflow: hidden;
+}
+.portfolio .container .cards .card .layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.portfolio .container .cards .card:hover .layer {
+  opacity: 1;
+}
+.portfolio .container .cards .card .layer a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  background-color: #151b29;
+  font-size: 25px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: var(--main-color);
+  border-image: initial;
+  border-radius: 50%;
+  color: var(--main-color);
+  transition: 0.4s;
+}
+.portfolio .container .cards .card .image {
+  overflow: hidden;
 }
 .portfolio .container .cards .card img {
   width: 100%;
   height: auto;
+  transition: 0.3s;
+}
+.portfolio .container .cards .card:hover img {
+  transform: scale(1.1);
+}
+.portfolio .container .cards .card .demo-btn {
+  padding: 10px;
+  text-align: start;
+}
+.portfolio .container .cards .card .demo-btn a {
+  color: #fff;
+  text-decoration: none;
+  background-color: var(--main-color);
+  color: black;
+  border-radius: 14px;
+  padding: 10px 20px;
+  display: inline-block;
 }
 
 .portfolio .container .button {
