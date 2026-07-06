@@ -3,7 +3,7 @@ import './about.css';
 import SectionTitle from '../sec-title/SectionTitle';
 import Image from '../../assets/image.png';
 import Button from '../button/Button';
-import cvUrl from '../../assets/Amr_Safwat_CV_With_Project_Links.pdf';
+import cvUrl from '../../assets/Amr-Safwat-CV.pdf';
 
 function About() {
   return (
