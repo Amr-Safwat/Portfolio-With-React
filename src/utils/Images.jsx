@@ -13,3 +13,15 @@ import imageTen from '/src/assets/work10.png'
 export const images = [
     imageOne, imageTwo, imageThree, imageFour, imageFive, imageSix, imageSeven, imageEight, imageNine, imageTen
 ]
+export const urls = [
+  'https://amr-safwat.github.io/Portfolio/',
+  'https://amr-safwat.github.io/kasper/',
+  'https://amr-safwat.github.io/amr/',
+  'https://amr-safwat.github.io/Special-Design/',
+  'https://amr-safwat.github.io/YouTube-Clone/',
+  'https://amr-safwat.github.io/CV_Template/',
+  'https://amr-safwat.github.io/Age_Calculation/',
+  'https://amr-safwat.github.io/Band-template/',
+  'https://amr-safwat.github.io/Bootstrap-Design/',
+  'https://amr-safwat.github.io/Leon/',
+];
